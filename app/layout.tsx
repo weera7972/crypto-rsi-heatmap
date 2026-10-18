@@ -1,0 +1,1 @@
+import type { Metadata } from "next"; import "./globals.css"; export const metadata: Metadata = { title: "Crypto RSI Heatmap | USDT-M Futures", description: "Binance USDT-M Futures RSI table and bubble heatmap" }; export default function RootLayout({children}:{children:React.ReactNode}) { return <html lang="en"><body>{children}</body></html>; }
